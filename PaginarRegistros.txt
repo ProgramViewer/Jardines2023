@@ -1,0 +1,4 @@
+SELECT *
+FROM tbTabla
+ORDER BY Campos
+OFFSET cantidadRegistros ROWS FETCH NEXT cantidadPorPagina ROWS ONLY;
